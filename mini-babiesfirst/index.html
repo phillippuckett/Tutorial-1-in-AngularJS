@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="friendsList">
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="UTF-8">
+	<title>Babies First</title>
+</head>
+
+<body ng-controller="mainCtrl">
+	{{hw}}
+	<input ng-model="textBox">
+	<div ng-repeat="friend in friends">
+		<p> {{friend}} </p>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/mainCtrl.js"></script>
+	<script src="js/service.js"></script>
+</body>
+
+</html>
